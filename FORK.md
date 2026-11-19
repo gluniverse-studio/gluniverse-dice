@@ -31,7 +31,7 @@ Versions are `<DSN base>-glu.N` (major stays 6, see [Identity](#identity)); blan
 latest such tag, or type one. It stamps `package.json` and `module/module.json`, builds with
 `npm run build:prod`, runs the tests, commits the bump, and publishes `module.json` and
 `module.zip` (made from `dist/`, without source maps). Manifest URL:
-`https://github.com/patcharapon-j/gluniverse-dice/releases/latest/download/module.json`.
+`https://github.com/gluniverse-studio/gluniverse-dice/releases/latest/download/module.json`.
 
 Licence field: upstream's `package.json` says `"AGPL"` without a version, and LICENSE.md is the
 v3 text. We kept `"AGPL"`. Choosing between `AGPL-3.0-only` and `AGPL-3.0-or-later` is a

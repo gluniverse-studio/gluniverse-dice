@@ -309,7 +309,7 @@ Map it onto what DSN already has, rather than a parallel tool:
 | Per-user appearance editing (system, colorset, texture, material, font, label/dice/outline/edge colours) | `ui/DiceConfig.js` (appearance tabs, `Utils.prepareFontList()`), `settings/DsnSettings.js` |
 | Face-by-face custom dice with a live 3D preview | `ui/DiceEditor.js` + `rendering/DiceEditorPreview.js` (template `dice-editor.hbs`) |
 | Saved designs | `engine/DiceLibrary.js` (user flag `dice-so-nice.diceLibrary`), `ui/DiceLibraryDialog.js`; `DiceColors` colorsets (`addColorset`) |
-| Fonts | `CONFIG.fontDefinitions`. The user's **gluniverse-google-font** module (`github.com/patcharapon-j/gluniverse-google-font`) adds any Google Font to `CONFIG.fontDefinitions` with its `@font-face` data, so DSN's font list offers it (`Utils.prepareFontList` reads `FontConfig.getAvailableFontChoices()`). On `diceSoNiceReady` it sets `preset.font` for presets without one, and it gates on `game.modules.get("dice-so-nice")?.active`, which the M0 shim satisfies. |
+| Fonts | `CONFIG.fontDefinitions`. The user's **gluniverse-google-font** module (`github.com/gluniverse-studio/gluniverse-google-font`) adds any Google Font to `CONFIG.fontDefinitions` with its `@font-face` data, so DSN's font list offers it (`Utils.prepareFontList` reads `FontConfig.getAvailableFontChoices()`). On `diceSoNiceReady` it sets `preset.font` for presets without one, and it gates on `game.modules.get("dice-so-nice")?.active`, which the M0 shim satisfies. |
 
 New, mostly M3 and M4 shader parameters exposed as fields: **engraving depth** (bump or normal
 strength per label: `normalMapStrength`, label bump maps in `generateMaterialData`), **inlay glow

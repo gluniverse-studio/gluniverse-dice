@@ -13,14 +13,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/patcharapon-j/gluniverse-dice.git"
+    "url": "git+https://github.com/gluniverse-studio/gluniverse-dice.git"
   },
   "author": "Simone, JDW (Dice So Nice); GLUniverse (fork)",
   "license": "AGPL",
   "bugs": {
-    "url": "https://github.com/patcharapon-j/gluniverse-dice/issues"
+    "url": "https://github.com/gluniverse-studio/gluniverse-dice/issues"
   },
-  "homepage": "https://github.com/patcharapon-j/gluniverse-dice#readme",
+  "homepage": "https://github.com/gluniverse-studio/gluniverse-dice#readme",
   "dependencies": {
     "@dimforge/rapier3d-compat": "0.21.0",
     "@rollup/plugin-commonjs": "^28.0.6",

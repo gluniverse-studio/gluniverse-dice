@@ -11,7 +11,7 @@ In Foundry's setup screen: **Add-on Modules → Install Module**, paste this man
 **Manifest URL**, then **Install**:
 
 ```
-https://github.com/patcharapon-j/gluniverse-dice/releases/latest/download/module.json
+https://github.com/gluniverse-studio/gluniverse-dice/releases/latest/download/module.json
 ```
 
 Enable **GLUniverse Dice** in the world and keep **Dice So Nice!** disabled (the two declare a

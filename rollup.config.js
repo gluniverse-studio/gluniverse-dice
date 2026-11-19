@@ -55,7 +55,7 @@ const config = {
         const compatibilityVerified = moduleJson.compatibility.verified;
         if(moduleJson.version !== packageJson.version) {
           moduleJson.version = packageJson.version;
-          moduleJson.download = `https://github.com/patcharapon-j/gluniverse-dice/releases/download/${packageJson.version}/module.zip`;
+          moduleJson.download = `https://github.com/gluniverse-studio/gluniverse-dice/releases/download/${packageJson.version}/module.zip`;
 
           writeFileSync('./module/module.json', JSON.stringify(moduleJson, null, 4));
           console.log(`[Dice So Nice] Module version set to ${packageJson.version}`);

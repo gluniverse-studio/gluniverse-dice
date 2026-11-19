@@ -171,11 +171,11 @@
             "url": "https://gitlab.com/riccisi/foundryvtt-dice-so-nice/-/raw/master/screenshot2.jpg"
         }
     ],
-    "url": "https://github.com/patcharapon-j/gluniverse-dice",
-    "manifest": "https://github.com/patcharapon-j/gluniverse-dice/releases/latest/download/module.json",
-    "download": "https://github.com/patcharapon-j/gluniverse-dice/releases/download/6.4.5-glu.7/module.zip",
-    "bugs": "https://github.com/patcharapon-j/gluniverse-dice/issues",
-    "readme": "https://github.com/patcharapon-j/gluniverse-dice/blob/main/README.md",
+    "url": "https://github.com/gluniverse-studio/gluniverse-dice",
+    "manifest": "https://github.com/gluniverse-studio/gluniverse-dice/releases/latest/download/module.json",
+    "download": "https://github.com/gluniverse-studio/gluniverse-dice/releases/download/6.4.5-glu.7/module.zip",
+    "bugs": "https://github.com/gluniverse-studio/gluniverse-dice/issues",
+    "readme": "https://github.com/gluniverse-studio/gluniverse-dice/blob/main/README.md",
     "license": "LICENSE.md",
     "flags": {
         "allowBugReporter": true
