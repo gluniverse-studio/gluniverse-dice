@@ -2,7 +2,7 @@
     "id": "gluniverse-dice",
     "title": "GLUniverse Dice",
     "description": "3D dice for Foundry VTT. A modified version (soft fork) of Dice So Nice! by Simone and JDW, keeping its public API (game.dice3d, diceSoNice* hooks).",
-    "version": "6.4.5-glu.7",
+    "version": "6.4.5-glu.8",
     "compatibility": {
         "minimum": 14,
         "verified": "14.370"
@@ -173,7 +173,7 @@
     ],
     "url": "https://github.com/gluniverse-studio/gluniverse-dice",
     "manifest": "https://github.com/gluniverse-studio/gluniverse-dice/releases/latest/download/module.json",
-    "download": "https://github.com/gluniverse-studio/gluniverse-dice/releases/download/6.4.5-glu.7/module.zip",
+    "download": "https://github.com/gluniverse-studio/gluniverse-dice/releases/download/6.4.5-glu.8/module.zip",
     "bugs": "https://github.com/gluniverse-studio/gluniverse-dice/issues",
     "readme": "https://github.com/gluniverse-studio/gluniverse-dice/blob/main/README.md",
     "license": "LICENSE.md",
